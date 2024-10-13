@@ -1,0 +1,88 @@
+:root {
+    --orange-1: #ff6100;
+    --orange-2: #ff9600;
+    --font-ads: 'Montserrat', sans-serif;
+    --header-backg: #182B3A;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+
+
+/* HEADER --------------------------------*/
+/* Header Ads ----------------------------*/
+.header-ads {
+    width: 100%;
+    padding: 7px 32px;
+    text-align: center;
+    font-family: var(--font-ads);
+    font-size: 1.664rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    color:white;
+    background: linear-gradient(45deg, var(--orange-1), var(--orange-2));
+}
+
+/* Main Header and Search -----------------*/
+.nav-and-search-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--header-backg);
+    width: 100%;
+    height: 120px;
+    color: white;
+}
+.navbar-login-cart-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    margin: 0 20px;
+}
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.main-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+}
+.main-navbar--stripes {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 100%;
+    
+    
+}
+.main-navbar--stripes .stripe {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+.logo-container {
+    width: 100%;
+    height: 100%;
+}
+.logo-container .logo {
+    background-image: url(https://statics.cdn0.buscalibre.com/images/logos/20231208132739buscalibre.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70%;
+}
