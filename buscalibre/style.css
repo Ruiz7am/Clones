@@ -26,7 +26,7 @@ body {
     text-align: center;
     font-family: var(--font-ads);
     font-size: 1.664rem;
-    font-weight: 400;
+    font-weight: 200;
     letter-spacing: 0.5px;
     line-height: 18px;
     color:white;
@@ -41,6 +41,7 @@ body {
     width: 100%;
     height: 120px;
     color: white;
+    padding-left: 20px;
     }
 .navbar-login-cart-container {
     display: flex;
@@ -53,7 +54,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     width: 50%;
 }
 .main-navbar {
@@ -67,8 +68,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 7px;
-    width: 75%;
-    
+    width: 40px;
     
 }
 .main-navbar--stripes .stripe {
@@ -87,11 +87,47 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 100%;
-    height: 100%;
+    width: 160px;
+    height: 60px;
 }
 .login-cart {
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+.login-cart .login-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url('./assets/icons/logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.login-cart .cart-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url('./assets/icons/cart.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.login-cart .cart-icon .cart-added-items {
+    position: absolute;
+    right: 6px;
+    top: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    color: #ff3c00;
+    background-color: var(--header-backg);
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.44rem;
+}
+.header-and-search-container{
+
 }
